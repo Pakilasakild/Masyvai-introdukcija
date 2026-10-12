@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+int main()
+{
+    int a, sum = 0;
+    cin >> a;
+    int mas[a];
+    for (int i = 0; i < a; i++)
+    {
+        cin >> mas[i];
+        sum += mas[i];
+    }
+    cout << sum;
+    return 0;
+}
